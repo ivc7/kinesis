@@ -11,3 +11,12 @@ The tutorial uses KCL 2.2.9 to demonstrate how to send a stream of records to Ki
 
 This sample code is made available under the MIT-0 license. See the LICENSE file.
 # kinesis
+
+
+- Run StockTradesWriter
+
+StockTradeStream us-east-1
+
+- Run StockTradesProcessor
+
+StockTradesProcessor StockTradeStream us-east-1
